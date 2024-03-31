@@ -55,13 +55,23 @@ p {
   color: green;
 }
 
-
-
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.help-about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.help-about {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .sections-container-div {
