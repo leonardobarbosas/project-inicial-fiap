@@ -68,6 +68,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 50px;
+
+  padding-bottom: 200px;
 }
 
 .help-about {
@@ -85,6 +87,8 @@ main {
   padding-top: 100px;
   display: flex;
   align-items: center;
+  scroll-behavior: smooth;
+  transition: 0.5s;
 }
 
 form {
