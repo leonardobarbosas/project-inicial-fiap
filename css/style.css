@@ -60,6 +60,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  margin: 20px;
 }
 
 .help-about-container {
@@ -118,7 +119,7 @@ button {
   font-weight: 0;
   font-size: 14px;
   color: #fff;
-  background: linear-gradient(90deg, #000000 0%, #787878 100%);
+  background: linear-gradient(90deg, blue 0%, black 100%);
   padding: 10px 30px;
   border: solid #000000 2px;
   box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
@@ -135,7 +136,7 @@ button:hover {
   transition: 0.3;
   padding: 10px 50px;
   transform: translateY(-0px);
-  background: linear-gradient(90deg, #000000 0%, #787878 100%);
+  background: linear-gradient(90deg, blue 0%, black 100%);
   color: #ffffff;
   border: solid 2px #ffffff;
 }
@@ -153,6 +154,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+
+  border-radius: 15px;
+  border-color: red;
+  border-top: 2px solid red;
 }
 
 .tit-sec {
